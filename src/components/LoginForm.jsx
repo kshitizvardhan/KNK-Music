@@ -15,7 +15,7 @@ const LoginForm = () => {
 
     if (email === storedEmail && password === storedPassword) {
       setError('');
-      window.location.href = "/welcome.html"; 
+      window.location.href = "/welcome2.html"; 
     } else {
       setError('Incorrect email or password');
     }
